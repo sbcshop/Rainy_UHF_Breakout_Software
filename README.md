@@ -1,6 +1,6 @@
 # Rainy_UHF_Breakout_Software
 
-The Compact Rainy UHF Module Breakout is a versatile long-range (1–20m) RFID module with Type-C USB and UART support. It offers high-speed, precise RFID capabilities, making it ideal for professionals, hobbyists, and electronics enthusiasts.
+The Compact Rainy UHF Module Breakout is a versatile long-range (1–20m) RFID module with Type-C USB and UART support. Can perform multi-tag reading (1–60 tags/sec), supporting ISO 18000-6C (EPC Gen 2) RFID applications! It offers high-speed, precise RFID capabilities, making it ideal for professionals, hobbyists, and electronics enthusiasts.
 
 This GitHub repository provides Rainy UHF module breakout getting started instructions.
 
