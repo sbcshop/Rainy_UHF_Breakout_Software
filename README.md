@@ -1,5 +1,7 @@
 # Rainy_UHF_Breakout_Software
 
+<img src="https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/images/Rainy_UHF_BreakoutBanner.jpg">
+
 The Compact Rainy UHF Module Breakout is a versatile long-range (1–20m) RFID module with Type-C USB and UART support. Can perform multi-tag reading (1–60 tags/sec), supporting ISO 18000-6C (EPC Gen 2) RFID applications! It offers high-speed, precise RFID capabilities, making it ideal for professionals, hobbyists, and electronics enthusiasts.
 
 This GitHub repository provides Rainy UHF module breakout getting started instructions.
@@ -30,13 +32,14 @@ This GitHub repository provides Rainy UHF module breakout getting started instru
 
 ## Getting Started Rainy UHF Breakout
 ### Pinout 
-<img src="">
+
+<img src="https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/images/Rainy_UHF_Breakout_pinout.jpg">
 
 ### Rainy UHF Breakout Standalone 
 
   - You have two options to use breakout either with Type C or UART interface. For standalone use with software, use Type C interface to connect with PC/laptop. Make sure to put jumper on USB (2) side as shown below,
 
-    <img src="https://github.com/sbcshop/NFC_Module/blob/main/images/device_manager_comport_view.png" width="584" height="425"> 
+    <img src="https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/images/USB_mode.png" width="584" height="425"> 
     
   - Once the Breakout is connected, check your COM Port in the device manager. Device listed with suitable com port,
     
