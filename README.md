@@ -37,9 +37,9 @@ This GitHub repository provides Rainy UHF module breakout getting started instru
 
 ### Rainy UHF Breakout Standalone 
 
-  - You have two options to use breakout either with Type C or UART interface. For standalone use with software, use Type C interface to connect with PC/laptop. Make sure to put jumper on USB (2) side as shown below,
+  - You have two options to use breakout either with Type C or UART interface. For standalone use with software, use Type C interface to connect with PC/laptop. Make sure to put jumper on USB side (2) as shown below,
 
-    <img src="https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/images/USB_mode.png" width="584" height="425"> 
+    <img src="https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/images/USB_mode.png" width="236" height="252"> 
     
   - Once the Breakout is connected, check your COM Port in the device manager. Device listed with suitable com port,
     
@@ -47,17 +47,42 @@ This GitHub repository provides Rainy UHF module breakout getting started instru
 
     If not listed meaning you don't have the CH340 driver installed on your PC/laptop, then follow guide [CH340 Driver Installation Manual Guide](https://github.com/sbcshop/NFC_Module/blob/main/documents/CH340%20Driver%20installation%20steps.pdf).
     
-  - Download the software folder provided [here](https://github.com/sbcshop/NFC_Module/tree/main/softwares), and run the .exe file, so you will see the below interface of the software.
-
+  - Download the software folder provided [here](https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/Windows%20DEMO%20software.zip), and run the application file, so you will see the below interface of the software.
+<!--
+    <img src="" width="" height="">
+    <img src="" width="" height="">
+    <img src="" width="" height="">
+    
+  - Text here
+    <img src="" width="" height="">
+    <img src="" width="" height="">
+    <img src="" width="" height="">
+    
+-->
 
 ### Rainy UHF Breakout Interface with MCU
 
+  - You have various options ranging from microcontroller to SBC's like Pico, ESP32, Arduino, Raspberry Pi, STM32 boards, etc. Easy integration possible.
+  - For interfacing with any MCU select UART mode by setting jumper on uart side (1) as shown below,
+
+    <img src="https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/images/UART_mode.png" width="207" height="274"> 
+
+  - Follow below reference connection,
+
+     |MCU | Rainy Breakout | Function |
+     |---|---|---|
+     |5V | 5V | Positive Supply |
+     |GND | GND | Supply Ground |
+     |TX | RX | Serial UART connection  |
+     |RX | TX  | Serial UART connection |
+    
+  - Checkout more information and sample codes for [Pico](https://github.com/sbcshop/Rainy_UHF_Pico_Expansion_Software), [ESP32](https://github.com/sbcshop/Rainy_UHF_ESP32_Software) and [Raspberry Pi](https://github.com/sbcshop/Rainy_UHF_HAT_Software/).    
 
  ## Resources
   * [Schematic](https://github.com/sbcshop/Rainy_UHF_Breakout_Hardware/blob/main/Design%20Data/Rainy%20UHF%20Breakout%20SCH.PDF) 
   * [Hardware data](https://github.com/sbcshop/Rainy_UHF_Breakout_Hardware)
-  * [Rainy UHF Module Command Manual]()
-  * [CH340 Driver Installation Guide]()
+  * [Rainy UHF Module Command Manual](https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/Document/Rainy%20UHF%20Module%20Command%20Manual.pdf)
+  * [CH340 Driver Installation Guide](https://github.com/sbcshop/NFC_Module/blob/main/documents/CH340%20Driver%20installation%20steps.pdf)
 
 ## Related Products
    * [Rainy UHF HAT](https://shop.sb-components.co.uk/products/rainy-uhf-pi-hat-complete-kit) - UHF module HAT with Standard 40pin to support Raspberry Pi
