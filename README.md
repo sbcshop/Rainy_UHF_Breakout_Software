@@ -48,6 +48,30 @@ This GitHub repository provides Rainy UHF module breakout getting started instru
     If not listed meaning you don't have the CH340 driver installed on your PC/laptop, then follow guide [CH340 Driver Installation Manual Guide](https://github.com/sbcshop/NFC_Module/blob/main/documents/CH340%20Driver%20installation%20steps.pdf).
     
   - Download the software folder provided [here](https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/Windows%20DEMO%20software.zip), and run the application file, so you will see the below interface of the software.
+
+     <img src="https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/images/app_use/img1.png" width="627" height="450">
+
+  - Select suitable com port and click connect. Default baudrate is 115200
+
+    <img src="https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/images/app_use/img2.png" width="627" height="450">
+
+  - Before executing any other option first set proper working region otherwise you will get reduce operating range compared to expected one. Select region from menu then click on Set Region. After this you can try other more operations.
+
+    <img src="https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/images/app_use/img3.png" width="627" height="450">
+
+  - The module will only poll once for a single read, making it helpful for reading single tags.
+
+    <img src="https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/images/app_use/img4.png" width="627" height="450">
+
+  - When you apply Read Multi command only once, the module polls several times, making Read Multi helpful for numerous card reads. Once you employ a multi-read operation, however, be careful to use the stop read command before any other operations.
+
+    <img src="https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/images/app_use/img5.png" width="627" height="450">
+
+  - Similary you can increase or decrease RF operating power.
+
+    <img src="https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/images/app_use/img6.png" width="627" height="450">
+
+
 <!--
     <img src="" width="" height="">
     <img src="" width="" height="">
